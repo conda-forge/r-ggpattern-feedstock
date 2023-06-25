@@ -1,11 +1,11 @@
-About r-ggpattern
-=================
+About r-ggpattern-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpattern-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/coolbutuseless/ggpattern, https://coolbutuseless.github.io/package/ggpattern/index.html
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpattern-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides 'ggplot2' geoms filled with various patterns.  Includes a patterned version of every 'ggplot2' geom that has a region that can be filled with a pattern.  Provides a suite of 'ggplot2' aesthetics and scales for controlling pattern appearances.  Supports over a dozen builtin patterns (every pattern implemented by 'gridpattern') as well as allowing custom user-defined patterns.
 
