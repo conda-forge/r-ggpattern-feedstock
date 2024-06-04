@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpattern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpattern/ggpattern_{{ version }}.tar.gz
-  sha256: f9652a22bfd041ace5fd99a499d1e4f15bf2aa34d7a1f2571af911f368772bad
+  sha256: fa0cf9bbf3a9d6c7972e6bd97fc41f35d657f10e3937be6a983882808d0f90f6
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
