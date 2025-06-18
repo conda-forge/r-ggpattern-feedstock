@@ -24,17 +24,17 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-ggplot2
+    - r-ggplot2 >=3.5.1
     - r-glue
-    - r-gridpattern >=0.5.1
-    - r-rlang
+    - r-gridpattern >=1.2.2
+    - r-rlang >= 1.1.3
     - r-scales
   run:
     - r-base
-    - r-ggplot2
+    - r-ggplot2 >=3.5.1
     - r-glue
-    - r-gridpattern >=0.5.1
-    - r-rlang
+    - r-gridpattern >=1.2.2
+    - r-rlang >=1.1.3
     - r-scales
 
 test:
